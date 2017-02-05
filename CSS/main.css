@@ -1,0 +1,81 @@
+/* line 1, ../scss/base/_reset.scss */
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* line 6, ../scss/base/_reset.scss */
+ul, li {
+  list-style: none;
+}
+
+/* line 4, ../scss/base/_base.scss */
+body {
+  font-family: 'Georgia', sans-serif;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5em;
+  background: #f4f4f4;
+}
+
+/* line 12, ../scss/base/_base.scss */
+#container {
+  width: 1060px;
+  overflow: auto;
+  margin: 20px auto;
+  background: white;
+  border: #ccc solid 1px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 21, ../scss/base/_base.scss */
+section {
+  min-height: 200px;
+}
+
+/* line 3, ../scss/layout/_header.scss */
+header {
+  height: 90px;
+  color: white;
+  line-height: 3.5rem;
+  background: #42f4b3;
+}
+
+/* line 10, ../scss/layout/_header.scss */
+header h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  padding: 20px 0 0 10px;
+  font-family: 'Crete Round', serif;
+}
+
+/* line 3, ../scss/layout/_footer.scss */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #42f4b3;
+  color: white;
+}
+
+/* line 3, ../scss/layout/_nav.scss */
+nav {
+  height: 30px;
+  background: #333333;
+  color: white;
+  padding-top: 10px;
+}
+
+/* line 10, ../scss/layout/_nav.scss */
+nav li {
+  float: left;
+  position: relative;
+  left: 18%;
+  padding: 0 10px 0 10px;
+}
+
+/* line 17, ../scss/layout/_nav.scss */
+nav a {
+  color: white;
+}

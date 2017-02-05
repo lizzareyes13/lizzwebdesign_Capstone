@@ -1,0 +1,23 @@
+// this is going to contain the css for
+// the body, main container,and header
+
+body{
+  font-family: 'Georgia', sans-serif;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5em;
+  background: #f4f4f4;
+}
+
+#container{
+  width: 1060px;
+  overflow: auto;
+  margin: 20px auto;
+  background: $white;
+  border: #ccc solid 1px;
+  @include border-radius;
+}
+
+section{
+  min-height: 200px;
+}

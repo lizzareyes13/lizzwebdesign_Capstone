@@ -1,11 +1,15 @@
+// importing all files inside of SCSS/base folder
 @import 'base/_variables.scss';
 @import 'base/_mixins.scss';
 @import 'base/_reset.scss';
 @import 'base/_base.scss';
 
+// importing all files inside of SCSS/layout folder
 @import 'layout/_header.scss';
 @import 'layout/_footer.scss';
+@import 'layout/_nav.scss';
 
+// importing all files insode of SCSS/modules
 @import 'modules/_typography.scss';
 @import 'modules/_buttons.scss';
 @import 'modules/_blocks.scss';
