@@ -11,14 +11,14 @@ ul, li {
 
 /* line 4, ../scss/base/_base.scss */
 body {
-  font-family: 'Georgia', sans-serif;
+  font-family: 'Playfair Display SC', serif;
   font-size: 14px;
   color: #666;
   line-height: 1.5em;
   background: #f4f4f4;
 }
 
-/* line 12, ../scss/base/_base.scss */
+/* line 11, ../scss/base/_base.scss */
 #container {
   width: 1060px;
   overflow: auto;
@@ -30,7 +30,7 @@ body {
   border-radius: 5px;
 }
 
-/* line 21, ../scss/base/_base.scss */
+/* line 20, ../scss/base/_base.scss */
 section {
   min-height: 200px;
 }
@@ -43,12 +43,12 @@ header {
   background: #42f4b3;
 }
 
-/* line 10, ../scss/layout/_header.scss */
+/* line 11, ../scss/layout/_header.scss */
 header h1 {
   font-size: 3.5rem;
   text-align: center;
   padding: 20px 0 0 10px;
-  font-family: 'Crete Round', serif;
+  font-family: 'Mrs Saint Delafield', cursive;
 }
 
 /* line 3, ../scss/layout/_footer.scss */
