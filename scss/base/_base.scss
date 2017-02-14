@@ -12,7 +12,7 @@ body{
   width: 1060px;
   overflow: auto;
   margin: 20px auto;
-  background: $white;
+  // background: $white;
   border: #ccc solid 1px;
   @include border-radius;
 }

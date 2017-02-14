@@ -23,7 +23,6 @@ body {
   width: 1060px;
   overflow: auto;
   margin: 20px auto;
-  background: white;
   border: #ccc solid 1px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -37,15 +36,16 @@ section {
 
 /* line 3, ../scss/layout/_header.scss */
 header {
+  background-image: url("../marble-pattern.jpg");
   height: 90px;
   color: white;
   line-height: 3.5rem;
-  background: #42f4b3;
 }
 
 /* line 11, ../scss/layout/_header.scss */
 header h1 {
   font-size: 3.5rem;
+  text-shadow: 2px 2px 2px #333333;
   text-align: center;
   padding: 20px 0 0 10px;
   font-family: 'Mrs Saint Delafield', cursive;
@@ -53,9 +53,9 @@ header h1 {
 
 /* line 3, ../scss/layout/_footer.scss */
 footer {
+  background-image: url("../marble-pattern.jpg");
   text-align: center;
   padding: 20px;
-  background: #42f4b3;
   color: white;
 }
 

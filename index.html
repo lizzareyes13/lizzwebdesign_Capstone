@@ -16,18 +16,17 @@
     <!-- container: contains everything from the navigation bar to the footer. -->
     <div id="container">
       <header>
-        <!-- <h3>WELCOME!</h3> -->
         <h1>Lizz Web Design</h1>
       </header>
 
       <!-- navigation bar -->
       <nav>
         <ul>
-          <li><a href="#" data-target="home.html">HOME</a></li>
-          <li><a href="#" data-target="work.html">MY WORK</a></li>
-          <li><a href="#" data-target="about.html">ABOUT ME</a></li>
-          <li><a href="#" data-target="services.html">SERVICES</a></li>
-          <li><a href="#" data-target="contact.html">CONTACT ME</a></li>
+          <li><a href="#" id="home" data-target="home.html">HOME</a></li>
+          <li><a href="#" id="work" data-target="work.html">MY WORK</a></li>
+          <li><a href="#" id="about" data-target="about.html">ABOUT ME</a></li>
+          <li><a href="#" id="services" data-target="services.html">SERVICES</a></li>
+          <li><a href="#" id="contact" data-target="contact.html">CONTACT ME</a></li>
         </ul>
       </nav>
 
@@ -46,7 +45,37 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="JS/main.js"></script>
+
+    <script type="text/javascript">
+
+    // this loads the contents of home.html onto index.html the #content div
+        $("#home").on("click", function(){
+          $("#content").load("home.html");
+          // alert("load was performed!");
+        });
+
+    // this loads the contents of work.html onto index.html the #content div
+        $("#work").on("click",function(){
+          $("#content").load("work.html");
+          // alert("load was performed!");
+        });
+
+    // this loads the contents of about.html onto index.html the #content div
+        $("#about").on("click", function(){
+          $("#content").load("about.html");
+        });
+    // this loads the contents of services.html onto index.html the #content div
+        $("#services").on("click", function(){
+          $("#content").load("services.html");
+        });
+    // this loads the contents of contact.html onto index.html the #content div
+        $("#contact").on("click", function(){
+          $("#content").load("contact.html");
+        });
+
+    </script>
+
+
   </body>
 
 </html>

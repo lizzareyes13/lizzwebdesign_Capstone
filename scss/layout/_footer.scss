@@ -1,8 +1,9 @@
 // this is the scss for the footer
 
 footer{
+  background-image: url("../marble-pattern.jpg");
   text-align: center;
   padding: 20px;
-  background: $primary-color;
+  // background: $primary-color;
   color: $white;
 }
