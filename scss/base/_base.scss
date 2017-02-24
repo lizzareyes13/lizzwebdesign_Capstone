@@ -1,22 +1,39 @@
 // this is going to contain the css for
 // the body, main container,and header
 
-body{
-  font-family: 'Playfair Display SC', serif;  font-size: 14px;
-  color: #666;
-  line-height: 1.5em;
-  background: #f4f4f4;
+body {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5em;
+    // background-image: img("../backgroundweb.jpg")!important;
+    background: #f4f4f4;
+    overflow: hidden;
+    margin-top: 45px;
 }
 
-#container{
-  width: 1060px;
-  overflow: auto;
-  margin: 20px auto;
-  // background: $white;
-  border: #ccc solid 1px;
-  @include border-radius;
+#container {
+    width: 950px;
+    overflow: hidden;
+    margin: 20px auto;
+    // background: $white;
+    border: #ccc solid 1px;
+    @include border-radius;
 }
 
-section{
-  min-height: 200px;
+section {
+    min-height: 200px !important;
+}
+@media screen and (max-width:600px) {
+    body {
+        font-size: 18px;
+        margin-bottom: 2px;
+        height: 16rem;
+    }
+
+    #container {
+        width: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
 }

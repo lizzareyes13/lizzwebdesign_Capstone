@@ -1,81 +1,90 @@
-/* line 1, ../scss/base/_reset.scss */
 * {
   margin: 0 auto;
-  padding: 0;
-}
+  padding: 0; }
 
-/* line 6, ../scss/base/_reset.scss */
-ul, li {
-  list-style: none;
-}
+li,
+ul {
+  list-style: none; }
 
-/* line 4, ../scss/base/_base.scss */
 body {
   font-family: 'Playfair Display SC', serif;
   font-size: 14px;
   color: #666;
   line-height: 1.5em;
   background: #f4f4f4;
-}
+  overflow: hidden;
+  margin-top: 45px; }
 
-/* line 11, ../scss/base/_base.scss */
 #container {
-  width: 1060px;
-  overflow: auto;
+  width: 950px;
+  overflow: hidden;
   margin: 20px auto;
   border: #ccc solid 1px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  border-radius: 5px;
-}
+  border-radius: 5px; }
 
-/* line 20, ../scss/base/_base.scss */
 section {
-  min-height: 200px;
-}
+  min-height: 200px !important; }
 
-/* line 3, ../scss/layout/_header.scss */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 18px;
+    margin-bottom: 2px;
+    height: 16rem; }
+  #container {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto; } }
+
 header {
   background-image: url("../marble-pattern.jpg");
   height: 90px;
-  color: white;
-  line-height: 3.5rem;
-}
+  color: #fff;
+  line-height: 3.5rem; }
 
-/* line 11, ../scss/layout/_header.scss */
 header h1 {
   font-size: 3.5rem;
   text-shadow: 2px 2px 2px #333333;
   text-align: center;
   padding: 20px 0 0 10px;
-  font-family: 'Mrs Saint Delafield', cursive;
-}
+  font-family: 'Mrs Saint Delafield', cursive; }
 
-/* line 3, ../scss/layout/_footer.scss */
 footer {
   background-image: url("../marble-pattern.jpg");
   text-align: center;
   padding: 20px;
-  color: white;
-}
+  color: #fff; }
 
-/* line 3, ../scss/layout/_nav.scss */
+@media screen and (max-width: 600px) {
+  footer {
+    font-size: 8px;
+    padding: 10px;
+    color: #fff; } }
+
 nav {
   height: 30px;
   background: #333333;
-  color: white;
-  padding-top: 10px;
-}
+  color: #fff;
+  padding-top: 10px; }
 
-/* line 10, ../scss/layout/_nav.scss */
 nav li {
   float: left;
   position: relative;
   left: 18%;
-  padding: 0 35px 0 35px;
-}
+  padding: 0 35px; }
 
-/* line 17, ../scss/layout/_nav.scss */
 nav a {
-  color: white;
-}
+  color: #fff; }
+
+.circle {
+  margin-top: 50px;
+  background-color: #42f4b3;
+  width: 250px;
+  height: 250px;
+  border-radius: 250px; }
+
+.fa-address-card {
+  margin-top: 50px;
+  margin-left: 45px;
+  font-size: 150px; }
