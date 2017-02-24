@@ -1,4 +1,4 @@
-<html>
+<!-- <html>
       <head>
         <meta charset="UTF-8">
         <title>README.md</title>
@@ -7,4 +7,100 @@
         <h1 id="lizzwebdesign_capstone-is-a-work-portfolio-page-">lizzwebdesign_Capstone is a work portfolio page.</h1>
 
       </body>
+    </html> -->
+
+
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>Lizz Web Design</title>
+        <!-- import Google icon font -->
+        <link href="https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield|Playfair+Display+SC" rel="stylesheet">
+        <!-- connecting our stylesheet -->
+        <link rel="stylesheet" href="CSS/main.css">
+        <!-- letting the browser know that our site is optimized for mobile -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title></title>
+    </head>
+
+    <body>
+        <!-- container: contains everything from the navigation bar to the footer. -->
+        <div id="container">
+            <header>
+                <h1>Lizz Web Design</h1>
+            </header>
+
+            <!-- navigation bar -->
+            <nav>
+                <ul>
+                    <li><a href="#" id="home" data-target="home.html">HOME</a></li>
+                    <li><a href="#" id="work" data-target="work.html">MY WORK</a></li>
+                    <li><a href="#" id="about" data-target="about.html">ABOUT ME</a></li>
+                    <li><a href="#" id="services" data-target="services.html">SERVICES</a></li>
+                    <li><a href="#" id="contact" data-target="contact.html">CONTACT ME</a></li>
+                </ul>
+            </nav>
+
+            <!-- content div -->
+
+            <div id="content">
+                <div class="">
+                    <!-- icons to use: -->
+
+                    <!-- <i class="fa fa-server" aria-hidden="true"></i> -->
+
+
+                    <!-- <i class="fa fa-cog" aria-hidden="true"></i> -->
+
+                    <!-- <i class="fa fa-id-badge" aria-hidden="true"></i> -->
+
+                    <!-- <i class="fa fa-laptop" aria-hidden="true"></i> -->
+
+                    <h1>WELCOME TO MY PAGE</h1>
+                </div>
+            </div>
+
+            <!-- footer -->
+            <section>
+            </section>
+            <footer>
+                <p>Copyright &copy; 2017, All Rights Reserved</p>
+            </footer>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+        <script type="text/javascript">
+            // this loads the contents of home.html onto index.html the #content div
+            $("#home").on("click", function() {
+                $("#content").load("home.html");
+                // alert("load was performed!");
+            });
+
+            // this loads the contents of work.html onto index.html the #content div
+            $("#work").on("click", function() {
+                $("#content").load("work.html");
+                // alert("load was performed!");
+            });
+
+            // this loads the contents of about.html onto index.html the #content div
+            $("#about").on("click", function() {
+                $("#content").load("about.html");
+            });
+            // this loads the contents of services.html onto index.html the #content div
+            $("#services").on("click", function() {
+                $("#content").load("services.html");
+            });
+            // this loads the contents of contact.html onto index.html the #content div
+            $("#contact").on("click", function() {
+                $("#content").load("contact.html");
+            });
+        </script>
+        <script src="https://use.fontawesome.com/67f0b16899.js"></script>
+
+    </body>
+
     </html>
