@@ -2,19 +2,21 @@
 // the body, main container,and header
 
 body {
+    @include border-radius;
     font-family: 'Playfair Display SC', serif;
     font-size: 14px;
     color: #666;
     line-height: 1.5em;
     // background-image: img("../backgroundweb.jpg")!important;
     background: #f4f4f4;
-    overflow: hidden;
-    margin-top: 45px;
+    // overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #container {
     width: 950px;
-    overflow: hidden;
+    // overflow: hidden;
     margin: 20px auto;
     // background: $white;
     border: #ccc solid 1px;
@@ -27,13 +29,12 @@ section {
 @media screen and (max-width:600px) {
     body {
         font-size: 18px;
-        margin-bottom: 2px;
-        height: 16rem;
+        margin: 0 auto;
     }
 
     #container {
         width: 100%;
-        overflow: hidden;
+        // overflow: hidden;
         margin: 0 auto;
     }
 }
