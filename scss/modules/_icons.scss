@@ -1,51 +1,78 @@
 // this is what goes inside the container div after the home, about, services,
 // work, etc. are clicked
+// targets circle
 
 .circle {
-    margin-top: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     background-color: $primary-color;
     width: 250px;
     height: 250px;
     border-radius: 250px;
 }
+// targets all "fa" class attributes
 
 .fa {
-    margin-left: 3rem;
+    margin-left: 2rem;
     font-size: 150px;
 }
+// targets my work: paint brush icon
 
-.fa-paint-brush{
+.fa-paint-brush {
     margin-top: 40px;
 }
+// targets all attributes with id="caption"
 
-#work{
-  font-size: 50px;
+#caption {
+    font-size: 30px;
+    margin-left: 25px;
+    margin-top: 0.5em;
+}
+// targets class="fa fa-id-badge" attribute
+
+.fa-id-badge {
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+// targets attribute with id="aboutme"
+
+#aboutme {
+    font-size: 30px;
+    margin-left: 58px;
+    margin-top: 0.5em;
+}
+// targets class="fa fa-laptop" attribute
+.fa-laptop{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#service-caption{
+  margin-left: 35px;
+  font-size: 30px;
 }
 @media screen and (max-width:600px) {
-  .circle {
-      margin-top: 50px;
-      background-color: $primary-color;
-      width: 150px;
-      height: 150px;
-      border-radius: 250px;
-  }
+    .circle {
+        margin-top: 50px;
+        background-color: $primary-color;
+        width: 150px;
+        height: 150px;
+        border-radius: 250px;
+    }
+    // .fa {
+    //     margin-top: 50px;
+    //     margin-left: 45px;
+    //     font-size: 150px;
+    // }
+    .fa {
+        margin-left: 2rem;
+        font-size: 85px;
+        margin-top: 0;
+    }
 
-  // .fa {
-  //     margin-top: 50px;
-  //     margin-left: 45px;
-  //     font-size: 150px;
-  // }
-  .fa {
-      margin-left: 2rem;
-      font-size: 85px;
-      margin-top: 0;
-  }
+    .fa-paint-brush {
+        // margin-top: 40px !important;
+    }
 
-  .fa-paint-brush{
-      // margin-top: 40px !important;
-  }
-
-  #work{
-
-  }
+    #work {}
 }

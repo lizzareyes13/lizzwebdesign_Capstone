@@ -78,21 +78,41 @@ nav a {
   color: #fff; }
 
 .circle {
-  margin-top: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   background-color: #42f4b3;
   width: 250px;
   height: 250px;
   border-radius: 250px; }
 
 .fa {
-  margin-left: 3rem;
+  margin-left: 2rem;
   font-size: 150px; }
 
 .fa-paint-brush {
   margin-top: 40px; }
 
-#work {
-  font-size: 14px; }
+#caption {
+  font-size: 30px;
+  margin-left: 25px;
+  margin-top: 0.5em; }
+
+.fa-id-badge {
+  margin-top: 40px;
+  margin-left: 70px; }
+
+#aboutme {
+  font-size: 30px;
+  margin-left: 58px;
+  margin-top: 0.5em; }
+
+.fa-laptop {
+  margin-top: 40px;
+  margin-left: 20px; }
+
+#service-caption {
+  margin-left: 35px;
+  font-size: 30px; }
 
 @media screen and (max-width: 600px) {
   .circle {
