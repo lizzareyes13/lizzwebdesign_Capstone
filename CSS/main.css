@@ -14,11 +14,13 @@ body {
   font-size: 14px;
   color: #666;
   line-height: 1.5em;
-  background: #f4f4f4;
   margin-top: 40px;
   margin-bottom: 40px; }
 
 #container {
+  background-image: url("../backgroundweb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 950px;
   margin: 20px auto;
   border: #ccc solid 1px;
@@ -80,39 +82,49 @@ nav a {
 .circle {
   margin-top: 15px;
   margin-bottom: 15px;
-  background-color: #42f4b3;
-  width: 250px;
-  height: 250px;
-  border-radius: 250px; }
+  background-image: url("../floral.jpg");
+  width: 270px;
+  height: 270px;
+  border-radius: 270px; }
 
 .fa {
-  margin-left: 2rem;
+  margin-left: 4rem;
   font-size: 150px; }
 
 .fa-paint-brush {
-  margin-top: 40px; }
+  margin-top: 40px;
+  margin-left: 4.5rem; }
 
 #caption {
   font-size: 30px;
-  margin-left: 25px;
+  margin-left: 65px;
   margin-top: 0.5em; }
 
 .fa-id-badge {
   margin-top: 40px;
-  margin-left: 70px; }
+  margin-left: 80px; }
 
 #aboutme {
   font-size: 30px;
-  margin-left: 58px;
+  margin-left: 5.25rem;
   margin-top: 0.5em; }
 
 .fa-laptop {
   margin-top: 40px;
-  margin-left: 20px; }
+  margin-left: 3.5rem; }
 
 #service-caption {
-  margin-left: 35px;
+  margin-left: 4.25rem;
   font-size: 30px; }
+
+.fa-mobile {
+  font-size: 12rem;
+  margin-top: 1rem;
+  margin-left: 6rem; }
+
+#contact-caption {
+  margin-top: 2px;
+  margin-left: 2.45rem; }
 
 @media screen and (max-width: 600px) {
   .circle {

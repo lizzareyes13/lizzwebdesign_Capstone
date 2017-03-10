@@ -7,14 +7,18 @@ body {
     font-size: 14px;
     color: #666;
     line-height: 1.5em;
-    // background-image: img("../backgroundweb.jpg")!important;
-    background: #f4f4f4;
+    // background: #23344f;
     // overflow: hidden;
     margin-top: 40px;
     margin-bottom: 40px;
 }
-
+// h1{
+//   text-align: center;
+// }
 #container {
+    background-image: url("../backgroundweb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 950px;
     // overflow: hidden;
     margin: 20px auto;
@@ -31,6 +35,12 @@ section {
         font-size: 18px;
         margin: 0 auto;
     }
+
+    // h1{
+    //   text-align: left;
+    //   font-size: 25px;
+    //   margin-left: 5px;
+    // }
 
     #container {
         width: 100%;
